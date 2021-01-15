@@ -2,6 +2,7 @@ package battle.conf;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;
+import java.net.URL;
 import java.util.ArrayList;
 
 import ground.GroundView;
@@ -63,7 +64,7 @@ public final class Configs {
 
 	private static void loadSysImg(){
 		sysImgs.add(new Image("foreBkground2.PNG"));
-		sysImgs.add(new Image("bkGround1.png"));
+		sysImgs.add(new Image("bkGround1.PNG"));
 
 		sysImgs.add(new Image("startGame.PNG"));
 		sysImgs.add(new Image("readFile.PNG"));
@@ -81,17 +82,17 @@ public final class Configs {
 		sysImgs.add(new Image("HP.PNG"));
 		sysImgs.add(new Image("MP.PNG"));
 		sysImgs.add(new Image("JustSide.PNG"));
-		sysImgs.add(new Image("DarkSide.png"));
+		sysImgs.add(new Image("DarkSide.PNG"));
 		sysImgs.add(new Image("bkGround4.PNG"));
 		sysImgs.add(new Image("JustSide2.PNG"));
-		sysImgs.add(new Image("DarkSide2.png"));
+		sysImgs.add(new Image("DarkSide2.PNG"));
 		sysImgs.add(new Image("backgroundSpec1.PNG"));
 		sysImgs.add(new Image("attackVol1h.PNG"));
 		sysImgs.add(new Image("attackVol2h.PNG"));
 		sysImgs.add(new Image("attackVol3h.PNG"));
-		sysImgs.add(new Image("startGame1.png"));
-		sysImgs.add(new Image("readFile1.png"));
-		sysImgs.add(new Image("infoCol.png"));
+		sysImgs.add(new Image("startGame1.PNG"));
+		sysImgs.add(new Image("readFile1.PNG"));
+		sysImgs.add(new Image("infoCol.PNG"));
 	}
 
 	// MARK: 其他UI布局相关的数值属性
@@ -178,7 +179,6 @@ public final class Configs {
 	public static int HINT_R;
 	public static int HINT_PAD;
 
-	// 图片名称 待改
 	public final static String[] imgNameList = { "brother1", "brother2", "brother3", "brother4", "brother5", "brother6",
 			"brother7", "grandpa", "scorption1", "snake1", "LouLo1" };
 
